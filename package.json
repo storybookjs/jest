@@ -1,0 +1,22 @@
+{
+  "name": "@storybook/jest",
+  "version": "0.0.0-alpha.1",
+  "description": "Instrumented version of Jest for Storybook Interactions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/storybookjs/jest.git"
+  },
+  "browser": "index.js",
+  "license": "MIT",
+  "files": [
+    "./index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@storybook/expect": "^1.0.0-rc.1",
+    "@storybook/instrumenter": "6.4.0-alpha.35",
+    "jest-mock": "^27.0.6"
+  }
+}

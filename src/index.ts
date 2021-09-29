@@ -6,5 +6,5 @@ export const { jest } = instrument({ jest: mock })
 
 export const { expect } = instrument(
   { expect: expectPatched },
-  { intercept: true }
+  { intercept: (method, path) => path[0] !== 'expect' }
 )

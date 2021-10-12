@@ -13,7 +13,7 @@
   "browser": "./dist/index.js",
   "license": "MIT",
   "files": [
-    "./dist/index.js"
+    "dist/**/*"
   ],
   "types": "./dist/index.d.ts",
   "publishConfig": {

@@ -10,10 +10,10 @@
     "build": "tsc",
     "prepublish": "yarn build"
   },
-  "browser": "index.js",
+  "browser": "./dist/index.js",
   "license": "MIT",
   "files": [
-    "./dist/index.js"
+    "dist/**/*"
   ],
   "types": "./dist/index.d.ts",
   "publishConfig": {

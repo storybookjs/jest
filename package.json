@@ -1,6 +1,6 @@
 {
   "name": "@storybook/jest",
-  "version": "0.0.0-alpha.5",
+  "version": "0.0.0",
   "description": "Instrumented version of Jest for Storybook Interactions",
   "repository": {
     "type": "git",

@@ -21,12 +21,13 @@
   },
   "dependencies": {
     "@storybook/expect": "latest",
-    "@storybook/instrumenter": "6.4.0-beta.12",
-    "expect": "27.0.6",
-    "jest-mock": "27.0.6"
+    "@storybook/instrumenter": "6.4.0-rc.5",
+    "expect": "^27.3.1",
+    "jest-mock": "^27.3.0"
   },
   "devDependencies": {
     "@storybook/linter-config": "^3.1.2",
+    "@types/react": "*",
     "tsc": "^2.0.3",
     "typescript": "^4.4.3"
   }

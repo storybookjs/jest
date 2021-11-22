@@ -23,7 +23,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@storybook/expect": "@storybook/jest",
+    "@storybook/expect": "storybook-jest",
     "@storybook/instrumenter": "6.4.0-rc.5",
     "jest-mock": "^27.3.0"
   },

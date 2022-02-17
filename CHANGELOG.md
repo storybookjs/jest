@@ -1,3 +1,15 @@
+# v0.0.7 (Thu Feb 17 2022)
+
+#### 🐛 Bug Fix
+
+- feat: add testing-library expect matchers [#12](https://github.com/storybookjs/jest/pull/12) ([@yannbf](https://github.com/yannbf))
+
+#### Authors: 1
+
+- Yann Braga ([@yannbf](https://github.com/yannbf))
+
+---
+
 # v0.0.6 (Fri Feb 04 2022)
 
 :tada: This release contains work from new contributors! :tada:

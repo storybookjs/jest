@@ -1,3 +1,15 @@
+# v0.0.8 (Thu Feb 17 2022)
+
+#### 🐛 Bug Fix
+
+- deps: upgrade @storybook/instrumenter [#13](https://github.com/storybookjs/jest/pull/13) ([@yannbf](https://github.com/yannbf))
+
+#### Authors: 1
+
+- Yann Braga ([@yannbf](https://github.com/yannbf))
+
+---
+
 # v0.0.7 (Thu Feb 17 2022)
 
 #### 🐛 Bug Fix

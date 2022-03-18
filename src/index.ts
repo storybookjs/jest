@@ -10,6 +10,7 @@ const expect: typeof expectPatched = instrument(
   { intercept: (_method, path) => path[0] !== 'expect' }
 ).expect;
 
+// @TODO: This should be reverted once https://github.com/testing-library/jest-dom/pull/438 is merged
 // Some bundlers include an undefined `default` in the namespace import,
 // or __esmodule (a boolean) which cause expect.extend to throw.
 const validMatchers = { ...matchers };

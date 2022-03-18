@@ -1,3 +1,20 @@
+# v0.0.10 (Fri Mar 18 2022)
+
+:tada: This release contains work from a new contributor! :tada:
+
+Thank you, Ian VanSchooten ([@IanVS](https://github.com/IanVS)), for all your work!
+
+#### 🐛 Bug Fix
+
+- Filter invalid matchers before extending expect [#16](https://github.com/storybookjs/jest/pull/16) ([@IanVS](https://github.com/IanVS) [@yannbf](https://github.com/yannbf))
+
+#### Authors: 2
+
+- Ian VanSchooten ([@IanVS](https://github.com/IanVS))
+- Yann Braga ([@yannbf](https://github.com/yannbf))
+
+---
+
 # v0.0.9 (Thu Feb 17 2022)
 
 #### 🐛 Bug Fix

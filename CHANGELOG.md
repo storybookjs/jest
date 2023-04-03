@@ -1,3 +1,24 @@
+# v0.1.0 (Mon Apr 03 2023)
+
+:tada: This release contains work from a new contributor! :tada:
+
+Thank you, Kasper Peulen ([@kasperpeulen](https://github.com/kasperpeulen)), for all your work!
+
+#### 🚀 Enhancement
+
+
+#### 🐛 Bug Fix
+
+- Support storybook 7.0 [#23](https://github.com/storybookjs/jest/pull/23) ([@yannbf](https://github.com/yannbf))
+- Support storybook 7.0 [#22](https://github.com/storybookjs/jest/pull/22) ([@yannbf](https://github.com/yannbf))
+
+#### Authors: 2
+
+- Kasper Peulen ([@kasperpeulen](https://github.com/kasperpeulen))
+- Yann Braga ([@yannbf](https://github.com/yannbf))
+
+---
+
 # v0.0.10 (Fri Mar 18 2022)
 
 :tada: This release contains work from a new contributor! :tada:

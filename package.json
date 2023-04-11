@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@storybook/expect": "storybook-jest",
-    "@storybook/instrumenter": "^7.0.0-beta.0 || ^7.0.0-rc.0 || ^7.0.0",
+    "@storybook/instrumenter": "future",
     "@testing-library/jest-dom": "^5.16.2",
     "jest-mock": "^27.3.0"
   },
@@ -42,7 +42,8 @@
   "auto": {
     "prereleaseBranches": [
       "next",
-      "prerelease"
+      "prerelease",
+      "future"
     ],
     "plugins": [
       "npm",

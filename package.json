@@ -24,10 +24,10 @@
     "access": "public"
   },
   "dependencies": {
-    "@storybook/expect": "storybook-jest",
+    "@storybook/expect": "28.1.3",
     "@storybook/instrumenter": "next",
     "@testing-library/jest-dom": "^5.16.2",
-    "jest-mock": "^27.3.0"
+    "jest-mock": "28.1.3"
   },
   "devDependencies": {
     "@auto-it/first-time-contributor": "^10.37.6",
@@ -35,8 +35,7 @@
     "@storybook/linter-config": "^3.1.2",
     "@types/react": "*",
     "auto": "^10.37.6",
-    "expect": "^27.3.1",
-    "typescript": "^4.4.3"
+    "typescript": "^4.9.0"
   },
   "author": "yannbf@gmail.com",
   "auto": {

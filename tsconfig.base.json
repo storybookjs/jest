@@ -4,6 +4,7 @@
     "allowJs": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
     "declaration": true,
     "declarationDir": "./dist/types"
   },

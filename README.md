@@ -18,3 +18,30 @@ public-hoist-pattern[]=@types*
 ```
 
 Otherwise, installing `@types/testing-library__jest-dom` as a direct dependency should have the same effect and fix your issue.
+
+If you are still experiencing issues after making these changes, it's very likely that your `tsconfig.json` file contains specific type overrides, which means that it will ignore automatic types, for instance:
+
+```json
+{
+	"compilerOptions": {
+    "types": [
+			"node",
+			"mocha",
+		]
+  }
+}
+```
+
+In that case, make sure to add `testing-library__jest-dom` to the `types` array:
+
+```json
+{
+	"compilerOptions": {
+    "types": [
+			"node",
+			"mocha",
+      "testing-library__jest-dom"
+		]
+  }
+}
+```

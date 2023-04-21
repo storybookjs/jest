@@ -23,11 +23,11 @@ If you are still experiencing issues after making these changes, it's very likel
 
 ```json
 {
-	"compilerOptions": {
+  "compilerOptions": {
     "types": [
-			"node",
-			"mocha",
-		]
+      "node",
+      "mocha",
+    ]
   }
 }
 ```
@@ -36,12 +36,12 @@ In that case, make sure to add `testing-library__jest-dom` to the `types` array:
 
 ```json
 {
-	"compilerOptions": {
+  "compilerOptions": {
     "types": [
-			"node",
-			"mocha",
+      "node",
+      "mocha",
       "testing-library__jest-dom"
-		]
+    ]
   }
 }
 ```

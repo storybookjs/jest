@@ -7,19 +7,17 @@
     "url": "https://github.com/storybookjs/jest.git"
   },
   "scripts": {
-    "build": "yarn build:esm && yarn build:cjs",
-    "build:esm": "tsc --project tsconfig.esm.json",
-    "build:cjs": "tsc --project tsconfig.cjs.json",
+    "build": "tsup ./src/index.ts --format cjs,esm --dts",
     "prerelease": "yarn build",
     "release": "auto shipit"
   },
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "license": "MIT",
   "files": [
     "dist/**/*"
   ],
-  "types": "./dist/types/index.d.ts",
+  "types": "./dist/index.d.ts",
   "publishConfig": {
     "access": "public"
   },
@@ -31,12 +29,13 @@
   },
   "devDependencies": {
     "@auto-it/first-time-contributor": "^10.37.6",
+    "tsup": "^5.12.0",
     "@auto-it/released": "^10.37.6",
     "@storybook/linter-config": "^3.1.2",
     "@types/react": "*",
     "auto": "^10.37.6",
     "expect": "^27.3.1",
-    "typescript": "^4.4.3"
+    "typescript": "^5.0.4"
   },
   "author": "yannbf@gmail.com",
   "auto": {

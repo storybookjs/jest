@@ -1,9 +1,9 @@
 import { defineConfig } from 'tsup';
 
-export default defineConfig([
+export default defineConfig(
   {
     entry: ['./src/index.ts'],
-    format: ['cjs'],
+    format: ['cjs', 'esm'],
     esbuildOptions(options, context) {
       Object.assign(options, {
         platform: 'browser',
@@ -15,25 +15,9 @@ export default defineConfig([
       })
     },
     shims: false,
-    
-  },
-  {
-    entry: ['./src/index.ts'],
-    format: ['esm'],
     dts: {
       entry: ['./src/index.ts'],
       resolve: true,
     },
-    esbuildOptions(options, context) {
-      Object.assign(options, {
-        platform: 'browser',
-        logLevel: 'error',
-        legalComments: 'none',
-        minifyWhitespace: false,
-        minifyIdentifiers: false,
-        minifySyntax: true,
-      })
-    },
-    shims: false,
-  },
-]);
+  }
+);

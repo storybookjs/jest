@@ -15,10 +15,11 @@
     "dist/**/*"
   ],
   "scripts": {
-    "build": "tsup ./src/index.ts --format cjs,esm --dts",
+    "build": "tsup",
     "prerelease": "yarn build",
     "release": "auto shipit"
   },
+  "sideEffects": false,
   "dependencies": {
     "@storybook/expect": "storybook-jest",
     "@testing-library/jest-dom": "^5.16.2",
@@ -31,6 +32,9 @@
     "@storybook/linter-config": "^3.1.2",
     "@types/react": "*",
     "auto": "^10.37.6",
+    "url": "^0.11.0",
+    "path": "^0.12.7",
+    "util": "^0.12.5",
     "expect": "^27.3.1",
     "tsup": "^5.12.0",
     "typescript": "^5.0.4"

@@ -6,38 +6,40 @@
     "type": "git",
     "url": "https://github.com/storybookjs/jest.git"
   },
-  "scripts": {
-    "build": "tsup ./src/index.ts --format cjs,esm --dts",
-    "prerelease": "yarn build",
-    "release": "auto shipit"
-  },
+  "license": "MIT",
+  "author": "yannbf@gmail.com",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "license": "MIT",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist/**/*"
   ],
-  "types": "./dist/index.d.ts",
-  "publishConfig": {
-    "access": "public"
+  "scripts": {
+    "build": "tsup",
+    "prerelease": "yarn build",
+    "release": "auto shipit"
   },
+  "sideEffects": false,
   "dependencies": {
     "@storybook/expect": "storybook-jest",
-    "@storybook/instrumenter": "future",
     "@testing-library/jest-dom": "^5.16.2",
     "jest-mock": "^27.3.0"
   },
   "devDependencies": {
     "@auto-it/first-time-contributor": "^10.37.6",
-    "tsup": "^5.12.0",
     "@auto-it/released": "^10.37.6",
+    "@storybook/instrumenter": "future",
     "@storybook/linter-config": "^3.1.2",
     "@types/react": "*",
     "auto": "^10.37.6",
+    "util": "^0.12.5",
     "expect": "^27.3.1",
+    "tsup": "^5.12.0",
     "typescript": "^5.0.4"
   },
-  "author": "yannbf@gmail.com",
+  "publishConfig": {
+    "access": "public"
+  },
   "auto": {
     "prereleaseBranches": [
       "next",

@@ -1,6 +1,6 @@
 # Storybook Jest
 
-Storybook integration for Jest, instrumented for use with the [Interactions addon](https://github.com/storybookjs/storybook/blob/next/addons/interactions/README.md).
+Storybook integration for Jest, instrumented for use with the [Interactions addon](https://github.com/storybookjs/storybook/blob/next/code/addons/interactions/README.md).
 
 ## FAQ
 

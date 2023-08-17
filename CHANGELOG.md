@@ -1,3 +1,60 @@
+# v0.2.0 (Thu Aug 17 2023)
+
+:tada: This release contains work from new contributors! :tada:
+
+Thanks for all your work!
+
+:heart: Norbert de Langen ([@ndelangen](https://github.com/ndelangen))
+
+:heart: Vanessa Yuen ([@vanessayuenn](https://github.com/vanessayuenn))
+
+:heart: Valentin Palkovic ([@valentinpalkovic](https://github.com/valentinpalkovic))
+
+:heart: Homa Wong ([@unional](https://github.com/unional))
+
+:heart: Kasper Peulen ([@kasperpeulen](https://github.com/kasperpeulen))
+
+:heart: Michael Shilman ([@shilman](https://github.com/shilman))
+
+### Release Notes
+
+#### Prebundle @storybook/instrumenter package ([#27](https://github.com/storybookjs/jest/pull/27))
+
+This change bundles the `@storybook/instrumenter` package which fixes dependency conflicts in certain scenarios. It shouldn't impact the functionality of the package itself, but let us know if you experience any issues!
+
+---
+
+#### 🚀 Enhancement
+
+- Release/0.2.0 [#36](https://github.com/storybookjs/jest/pull/36) ([@yannbf](https://github.com/yannbf) [@ndelangen](https://github.com/ndelangen) [@vanessayuenn](https://github.com/vanessayuenn) [@valentinpalkovic](https://github.com/valentinpalkovic) [@unional](https://github.com/unional) [@kasperpeulen](https://github.com/kasperpeulen))
+- Fix: Make sure that expect matches the runtime type when instrumented [#34](https://github.com/storybookjs/jest/pull/34) ([@kasperpeulen](https://github.com/kasperpeulen))
+- Prebundle @storybook/instrumenter package [#27](https://github.com/storybookjs/jest/pull/27) ([@ndelangen](https://github.com/ndelangen) [@yannbf](https://github.com/yannbf))
+
+#### 🐛 Bug Fix
+
+- bump version [#31](https://github.com/storybookjs/jest/pull/31) ([@yannbf](https://github.com/yannbf))
+- Retrigger release [#30](https://github.com/storybookjs/jest/pull/30) ([@yannbf](https://github.com/yannbf))
+- Change Storybook dependencies from `future` npm tag to `next` [#28](https://github.com/storybookjs/jest/pull/28) ([@yannbf](https://github.com/yannbf))
+- Change build scripts to use tsup instead of tsc [#26](https://github.com/storybookjs/jest/pull/26) ([@ndelangen](https://github.com/ndelangen) [@yannbf](https://github.com/yannbf))
+
+#### 📝 Documentation
+
+- docs: update link [#33](https://github.com/storybookjs/jest/pull/33) ([@unional](https://github.com/unional))
+- Add more explanation to the types FAQ [#25](https://github.com/storybookjs/jest/pull/25) ([@yannbf](https://github.com/yannbf))
+
+#### Authors: 8
+
+- Homa Wong ([@unional](https://github.com/unional))
+- Kasper Peulen ([@kasperpeulen](https://github.com/kasperpeulen))
+- Michael Shilman ([@shilman](https://github.com/shilman))
+- Norbert de Langen ([@ndelangen](https://github.com/ndelangen))
+- Valentin Palkovic ([@valentinpalkovic](https://github.com/valentinpalkovic))
+- Vanessa Yuen ([@vanessayuenn](https://github.com/vanessayuenn))
+- Yann Braga ([@yannbf](https://github.com/yannbf))
+- yannbf@gmail.com (runner@fv-az180-857.oqwrao4tgo5u1osypft1dvkhhh.cx.internal.cloudapp.net)
+
+---
+
 # v0.1.0 (Mon Apr 03 2023)
 
 :tada: This release contains work from a new contributor! :tada:

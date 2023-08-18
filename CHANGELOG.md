@@ -1,3 +1,16 @@
+# v0.2.1 (Fri Aug 18 2023)
+
+#### 🐛 Bug Fix
+
+- Release 0.2.1 [#38](https://github.com/storybookjs/jest/pull/38) ([@kasperpeulen](https://github.com/kasperpeulen))
+- Specify triple slash reference in banner [#37](https://github.com/storybookjs/jest/pull/37) ([@kasperpeulen](https://github.com/kasperpeulen))
+
+#### Authors: 1
+
+- Kasper Peulen ([@kasperpeulen](https://github.com/kasperpeulen))
+
+---
+
 # v0.2.0 (Thu Aug 17 2023)
 
 :tada: This release contains work from new contributors! :tada:

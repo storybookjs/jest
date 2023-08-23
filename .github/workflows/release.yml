@@ -22,8 +22,7 @@ jobs:
           node-version: 16.x
 
       - name: Install Yarn
-        run: corepack enable |
-          corepack enable
+        run: corepack enable
 
       # Yarn dependencies cannot be cached until yarn is installed
       # WORKAROUND: https://github.com/actions/setup-node/issues/531

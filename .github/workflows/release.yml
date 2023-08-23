@@ -12,14 +12,25 @@ jobs:
       - name: Prepare repository
         run: git fetch --unshallow --tags
 
-      - name: Use Node.js 16.x
+      - name: Install Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Install Yarn
+        run: corepack enable |
+          corepack enable
+
+      # Yarn dependencies cannot be cached until yarn is installed
+      # WORKAROUND: https://github.com/actions/setup-node/issues/531
+      - name: Extract cached dependencies
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
           cache: 'yarn'
 
       - name: Install dependencies
-        run: yarn
+        run: corepack yarn
 
       - name: Create Release
         env:

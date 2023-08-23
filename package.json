@@ -16,8 +16,7 @@
   ],
   "scripts": {
     "build": "tsup",
-    "prerelease": "yarn build",
-    "release": "auto shipit"
+    "release": "yarn build && auto shipit"
   },
   "sideEffects": false,
   "dependencies": {

@@ -1,3 +1,18 @@
+# v0.2.2 (Tue Aug 29 2023)
+
+#### 🐛 Bug Fix
+
+- Release 0.2.2 [#43](https://github.com/storybookjs/jest/pull/43) ([@IanVS](https://github.com/IanVS) [@yannbf](https://github.com/yannbf))
+- Update @testing-library/jest-dom to v6 [#42](https://github.com/storybookjs/jest/pull/42) ([@IanVS](https://github.com/IanVS) [@yannbf](https://github.com/yannbf))
+- Fix version in package.json, support yarn 3 [#41](https://github.com/storybookjs/jest/pull/41) ([@IanVS](https://github.com/IanVS) [@yannbf](https://github.com/yannbf))
+
+#### Authors: 2
+
+- Ian VanSchooten ([@IanVS](https://github.com/IanVS))
+- Yann Braga ([@yannbf](https://github.com/yannbf))
+
+---
+
 # v0.2.1 (Fri Aug 18 2023)
 
 #### 🐛 Bug Fix

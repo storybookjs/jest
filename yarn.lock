@@ -588,12 +588,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/expect@npm:v28.1.4-canary.1":
-  version: 28.1.4-canary.1
-  resolution: "@storybook/expect@npm:28.1.4-canary.1"
+"@storybook/expect@npm:storybook-jest":
+  version: 28.1.3-5
+  resolution: "@storybook/expect@npm:28.1.3-5"
   dependencies:
     "@types/jest": 28.1.3
-  checksum: aa5b0b549bf82cfbbad13c285eae02aeb7fcfeeacf16e04fc1abbb027842c9ff7b882f42dd6262870361de66c3515e5df0fef6df397a2391c99373d4e1f94834
+  checksum: db2bf47d92dc5de97793f98bd12ebc9ca10c1afffbd27c38c268200ab186c75808c9a246a07838c5516229351e31cc47338f950bc918521dfd80efbb5239ed59
   languageName: node
   linkType: hard
 
@@ -623,7 +623,7 @@ __metadata:
   dependencies:
     "@auto-it/first-time-contributor": ^10.37.6
     "@auto-it/released": ^10.37.6
-    "@storybook/expect": v28.1.4-canary.1
+    "@storybook/expect": storybook-jest
     "@storybook/instrumenter": next
     "@storybook/linter-config": ^3.1.2
     "@testing-library/jest-dom": ^6.1.2

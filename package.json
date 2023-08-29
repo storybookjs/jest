@@ -28,7 +28,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@storybook/expect": "v28.1.4-canary.1",
+    "@storybook/expect": "storybook-jest",
     "@testing-library/jest-dom": "^6.1.2",
     "@types/jest": "28.1.3",
     "jest-mock": "^27.3.0"

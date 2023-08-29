@@ -17,6 +17,6 @@ export default defineConfig({
   dts: {
     entry: ['./src/index.ts'],
     resolve: true,
-    banner: '/// <reference types="jest" />',
+    banner: '/// <reference types="jest" />\n/// <reference types="@testing-library/jest-dom" />',
   },
 });

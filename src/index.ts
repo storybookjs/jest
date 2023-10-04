@@ -27,6 +27,9 @@ const expect = instrument(
   { intercept: (_method, path) => path[0] !== 'expect' }
 ).expect as unknown as Expect;
 
-expect.extend(matchers);
+
+// This is a workaround needed for CJS/ESM interop, to make both Vite and Webpack work, in CJS and ESM, without warnings.
+const name = 'default' // we need to trick Webpack, this is how 🎉
+expect.extend(matchers?.[name] ?? matchers);
 
 export { expect, jest };

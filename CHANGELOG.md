@@ -1,3 +1,15 @@
+# v0.2.3 (Wed Oct 04 2023)
+
+#### 🐛 Bug Fix
+
+- Fix cjs/esm interoperability [#47](https://github.com/storybookjs/jest/pull/47) ([@yannbf](https://github.com/yannbf))
+
+#### Authors: 1
+
+- Yann Braga ([@yannbf](https://github.com/yannbf))
+
+---
+
 # v0.2.2 (Tue Aug 29 2023)
 
 #### 🐛 Bug Fix
